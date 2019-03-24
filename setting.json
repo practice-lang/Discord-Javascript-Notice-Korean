@@ -3,7 +3,5 @@
     "token": "Discord Bot Token",
     "prefix": "Disocrd Bot Prefix",
     "cmd":"Notice Command",
-    "channel": "Notice Channel",
-    "make":"true or false",
-    "makename":"Bot is make Channel name"
+    "channel": "Notice Channel"
 }
