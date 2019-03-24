@@ -22,7 +22,7 @@ notice.on("message", function (msg) {
     if (msg.author.id !== owner) return;
       var args = msg.content.slice(3);
     try {
-          channel.send("보내는중..").then(async msg1 => {
+          channel.send("Sending...").then(async msg1 => {
             var gw = notice.guilds.array().forEach(g => {
                 const no = g.channels.find(ch => ch.name === chl);
                 if (!no) {
@@ -37,11 +37,11 @@ notice.on("message", function (msg) {
                   string += chl.name + '\n';
               })
             const Success = new self.RichEmbed()
-                .setTitle("Success")
+                .setTitle("Notice")
                 .addField("Contents", `Contents: ${args}`)
                 .addField("Channels", `${chl.length} Sent to channels!`, false)
                 .addBlankField()
-                .addField("Guild", "```" + string + "```", true)
+                .addField("Guilds", "```" + string + "```", true)
                 .setTimestamp();
             channel.send(Success);
             return;
