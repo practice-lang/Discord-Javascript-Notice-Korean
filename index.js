@@ -1,5 +1,6 @@
  /*
-  
+  MIT License
+  Copyright(c) ttakkku 2019, All Right Reserved.
 */
 const self = require("discord.js");
 let notice = new self.Client()
