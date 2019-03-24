@@ -1,0 +1,7 @@
+{
+    "ID":"Discord User ID",
+    "token": "Discord Bot Token",
+    "prefix": "Disocrd Bot Prefix",
+    "cmd":"Notice Command",
+    "channel": "Notice Channel"
+}

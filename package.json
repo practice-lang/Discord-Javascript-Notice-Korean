@@ -1,0 +1,22 @@
+{
+  "name": "notice",
+  "version": "1.0.0",
+  "description": "it is notice korean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttakkku/Discord-Javascript-Notice-Korean.git"
+  },
+  "author": "ttakkku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttakkku/Discord-Javascript-Notice-Korean/issues"
+  },
+  "homepage": "https://github.com/ttakkku/Discord-Javascript-Notice-Korean#readme",
+  "dependencies": {
+    "discord": "^0.8.2"
+  }
+}
