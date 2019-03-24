@@ -40,7 +40,7 @@ notice.on("message", function (msg) {
             const Success = new self.RichEmbed()
                 .setTitle("Notice")
                 .addField("Contents", `Contents: ${args}`)
-                .addField("Channels", `${chl.length} Sent to channels!`, false)
+                .addField("Channels", `${chl.length} channels!`, false)
                 .addBlankField()
                 .addField("Guilds", "```" + string + "```", true)
                 .setTimestamp();
