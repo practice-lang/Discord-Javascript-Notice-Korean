@@ -37,7 +37,7 @@ notice.on("message", function (msg) {
                   string += chl.name + '\n';
               })
             const Success = new self.RichEmbed()
-                .setTitle("Success")
+                .setTitle("Notice")
                 .addField("Contents", `Contents: ${args}`)
                 .addField("Channels", `${chl.length} Sent to channels!`, false)
                 .addBlankField()
