@@ -1,3 +1,3 @@
 # Discord Javascript Notice Korean
-=======
-It is practice
+
+It is Nothice Practice
